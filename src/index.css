@@ -261,3 +261,7 @@
   /* font-family: "Orbitron", sans-serif; */
   /* font-family: "Montserrat", sans-serif; */
 }
+
+@utility social-icon {
+  @apply text-foreground/80 hover:text-primary hover:scale-110 transition-all duration-300;
+}

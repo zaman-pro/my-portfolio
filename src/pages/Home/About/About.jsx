@@ -15,13 +15,13 @@ const About = () => {
               Passionate Frontend Web Developer
             </h3>
 
-            <p className="text-muted-foreground">
+            <p className="">
               I'm a detail-oriented developer creating responsive and
               user-friendly web applications. Skilled in the MERN stack I aim to
               write clean and maintainable code.
             </p>
 
-            <p className="text-muted-foreground">
+            <p className="">
               I explore new technologies like Next.js, TanStack and Three.js. I
               enjoy turning ideas into meaningful digital experiences sometimes
               after finding a missing semicolon 😅
@@ -49,7 +49,7 @@ const About = () => {
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Web Development</h4>
-                  <p className="text-muted-foreground">
+                  <p className="">
                     Building responsive and accessible web apps with modern
                     frameworks.
                   </p>
@@ -63,7 +63,7 @@ const About = () => {
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Problem Solving</h4>
-                  <p className="text-muted-foreground">
+                  <p className="">
                     Transforming complex challenges into practical and elegant
                     solutions.
                   </p>
@@ -78,7 +78,7 @@ const About = () => {
 
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Continuous Learning</h4>
-                  <p className="text-muted-foreground">
+                  <p className="">
                     I strive to grow and refine my craft while creating
                     meaningful digital experiences.
                   </p>

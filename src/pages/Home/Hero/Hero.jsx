@@ -23,7 +23,7 @@ const Hero = () => {
             </span> */}
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+          <p className="text-lg md:text-xl  max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             Frontend Developer specializing in modern web applications. I craft
             stellar digital experiences with React, JavaScript, and responsive
             design, user-friendly, and built for impact.
@@ -38,7 +38,7 @@ const Hero = () => {
       </div>
 
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
-        <span className="text-sm text-muted-foreground mb-2"> Scroll </span>
+        <span className="text-sm  mb-2"> Scroll </span>
         <ArrowDown className="h-5 w-5 text-primary" />
       </div>
     </section>
