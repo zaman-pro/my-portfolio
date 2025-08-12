@@ -122,6 +122,9 @@
   @media (width >= 1400px) {
     max-width: 1400px;
   }
+  @media (width >= 2560px) {
+    max-width: 2560px;
+  }
 }
 
 @utility text-glow {
@@ -204,6 +207,51 @@
 }
 
 /* ---------------------------------------------- */
+
+@utility project-card {
+  @apply bg-card rounded-lg overflow-hidden shadow-xs transition-all duration-300 border border-border relative flex flex-col;
+
+  &::before {
+    @apply content-[""] absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/50 opacity-0 transition-opacity duration-300 -z-[1];
+  }
+
+  &:hover {
+    @apply -translate-y-2 scale-[1.02] shadow-xl border-primary;
+
+    &::before {
+      @apply opacity-100;
+    }
+  }
+}
+
+@utility project-image {
+  @apply h-48 relative overflow-hidden;
+
+  &::after {
+    @apply content-[""] absolute inset-0 bg-gradient-to-r from-transparent via-primary/20 to-transparent -translate-x-full transition-transform duration-600;
+  }
+
+  .project-card:hover &::after {
+    @apply translate-x-full;
+  }
+}
+
+@utility project-tags {
+  @apply pb-4 flex gap-2 flex-wrap;
+
+  & span {
+    @apply px-2 py-1 font-medium rounded-full text-xs border;
+    color: hsl(var(--primary));
+  }
+}
+
+@utility project-title {
+  @apply pb-6 text-xl font-semibold text-foreground text-left;
+}
+
+@utility project-description {
+  @apply line-clamp-2 overflow-hidden text-left;
+}
 
 #root {
   max-width: 100%;

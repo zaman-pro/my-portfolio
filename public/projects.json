@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "BotaNest - Plant Care Tracker",
+    "description": "A full-stack plant care tracker with dashboards, watering schedules, and health monitoring for indoor/outdoor plants.",
+    "image": "/projects/botanest.png",
+    "tags": ["React", "TailwindCSS", "MongoDB"],
+    "demoUrl": "https://b11a10-botanest-zaman-pro.web.app/",
+    "githubUrl": "https://github.com/zaman-pro/BotaNest-client"
+  },
+  {
+    "id": 2,
+    "title": "BhuGoal - Group Study Platform",
+    "description": "BhuGoal is a collaborative group-study platform designed to simplify academic collaboration among friends.",
+    "image": "/projects/bhugoal.png",
+    "tags": ["TailwindCSS", "React", "Node.js"],
+    "demoUrl": "https://bhugoal.netlify.app/",
+    "githubUrl": "https://github.com/zaman-pro/BhuGoal-client"
+  },
+  {
+    "id": 3,
+    "title": "RedLife -  Blood Donation Platform",
+    "description": "Full-featured e-commerce platform with user authentication and payment processing.",
+    "image": "/projects/redlife.png",
+    "tags": ["React", "Node.js", "Stripe"],
+    "demoUrl": "https://b11a12-redlife-zaman-pro.netlify.app/",
+    "githubUrl": "https://github.com/zaman-pro/RedLife-client"
+  }
+]
